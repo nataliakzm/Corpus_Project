@@ -1,5 +1,7 @@
-**Here, me (Natalia Kuzminykh) with a motivational help of Sabahat Javed Khan try to make the most efficient way to build a corpus from the web.**
-\*This repository is going to be updated with the tools that we used to analyse corpora.
+This part is dedicated to a corpus analysis that was conducted with a help of [**Natural Language Toolkit(NLTK)**](https://www.nltk.org/install.html)
+One can find here several methods for the corpus analysis e.g. frequency of use of words within the corpus after stemming and removal of stopwords etc.  
 
-The idea of the project is to crawl the web media sources to build a corpus by using Python packages (e.g. Justext or BeautifulSoup). 
-> **Here are scripts that can be useful for this:**
+The sequential order of scripts represented here is the following:
+1. NLTK_basic.py
+2. Frequency_distributions.py 
+3. Stemming_lemmatization.py
