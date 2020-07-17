@@ -7,6 +7,6 @@
 
 **Structure of the Repository:**
 1. [Web_Scraping;](Web_Scraping/Readme.md)
-2. [Analysis (including a collected corpus);](Analysis/Readme.md)
+2. [Analysis](Analysis/Readme.md)  (including a collected corpus);
 3. [Presentation of the project](Presentation.pdf)
  
