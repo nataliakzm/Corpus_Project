@@ -10,8 +10,8 @@ def get_content(link):
     content += p.get_text().strip('\n')
   return content
 
-in_path = "demo.txt"
-out_path = "outputData.txt"
+in_path = "input.txt"  #the text should be located in the same directory with a script
+out_path = "outputData.txt" 
 
 with open(in_path, 'r') as fin:
   links = fin.read().splitlines()
