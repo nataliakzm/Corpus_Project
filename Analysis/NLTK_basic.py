@@ -11,7 +11,7 @@ import nltk
  If you want to use your own files, you'll have to tell Python where they are,
  so it can read them. Activate these steps instead if you want to work with one file:
 '''
-#f = open(r'C:\Users\Lenovo\Desktop\UNISI\Corpus Approaches\Project\Analysis\BBC_Bl_59.txt','rU')
+#f = open(r'C:\Users\Lenovo\Desktop\UNISI\Corpus Approaches\Project\Analysis\BBC_Bl_59.txt','rU') #change this to your path
 #raw = f.read()
 #tokens = nltk.word_tokenize(raw)
 #text = nltk.Text(tokens)
@@ -25,7 +25,7 @@ like your path, your file extension, etc...
 
 from nltk.corpus import PlaintextCorpusReader
 files = ".*\.txt"
-corpus0 = PlaintextCorpusReader(r"C:\Users\Lenovo\Desktop\UNISI\Corpus Approaches\Project\Analysis\Corpus\Before", files)
+corpus0 = PlaintextCorpusReader(r"C:\Users\Lenovo\Desktop\UNISI\Corpus Approaches\Project\Analysis\Corpus\Before", files) #change this to your path
 corpus  = nltk.Text(corpus0.words())
 
 #print('Сontents', corpus0.fileids()) #Print contents of your corpus
