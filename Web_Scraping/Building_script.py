@@ -4,7 +4,7 @@ page = requests.get('https://www.bbc.co.uk/news/world-europe-26644082').text.enc
 
 paragraphs = justext.justext(page, justext.get_stoplist('English')) #for corpus in English
 for paragraph in paragraphs:
-    if paragraph['class'] == 'good':
+    if not paragraph.is_boilerplate:
 #        print(paragraph['text'])        
         with open("BBC.txt", "a") as myfile: #change the name of an output .txt file
-            myfile.write(paragraph['text'])
+            myfile.write(paragraph.text)
